@@ -1,0 +1,139 @@
+h1	{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h2	{
+	text-align: center;
+}
+
+div >	p	{
+	text-align:center;
+	
+}
+
+img	{
+	max-width: 65%;
+	max-height: 65%;
+	padding: 15px;
+	position: relative;
+}
+
+.background {
+	background-color: lemonchiffon;
+}
+
+.images:hover {
+transform:scale(.5, .5);
+cursor: pointer;
+
+}
+
+.images:hover .info {
+	background-color: lightgreen;
+	transition-delay: 0s;
+	transition-duration: .4s;
+}
+
+.movielink1:hover {
+	transform: scale(2.2, 2.2);
+    background-color: lightsalmon;  
+    cursor: pointer;
+}
+
+.movielink2:hover {
+	transform: scale(2.2, 2.2);
+    background-color: lightsalmon;  
+    cursor: pointer;
+}
+
+.movielink3:hover {
+	transform: scale(2.2, 2.2);
+    background-color: lightsalmon;  
+    cursor: pointer;
+}
+
+.movielink4:hover {
+	transform: scale(2.2, 2.2);
+    background-color: lightsalmon;  
+    cursor: pointer;
+}
+
+.movielink5:hover {
+	transform: scale(2.2, 2.2);
+    background-color: lightsalmon;  
+    cursor: pointer;
+}
+
+.movielink6:hover {
+	transform: scale(2.2, 2.2);
+    background-color: lightsalmon;  
+    cursor: pointer;
+}
+
+.movielink7:hover {
+	transform: scale(2.2, 2.2);
+    background-color: lightsalmon;  
+    cursor: pointer;
+}
+
+.movielink8:hover {
+	transform: scale(2.2, 2.2);
+    background-color: lightsalmon;  
+    cursor: pointer;
+}
+
+.ListContainer	{
+	text-align: center;
+
+}
+
+.UL	{
+	display: inline-block;
+  	text-align: left;
+	list-style-type: none;
+}
+
+
+.info	{
+	
+	font-size: 25px;
+	padding-right: 60px;
+}
+
+.container	{
+	display: grid;
+ 	align-items: center; 
+ 	grid-template-columns: auto auto;
+ 	column-gap: 5px;
+}
+
+.movieTable {
+	position:absolute;
+	top: 0;
+	right: 0;
+}
+
+.tCenter	{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td	{
+	background-color: gray;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.switchButton:hover {
+	transform: scale(1.3, 1.3);
+	color: red;
+	border: solid 2px red;
+    box-shadow: 2px 2px 3px;
+    border-radius: 10px; 
+	cursor: pointer;
+ }
+
+body	{
+	background-image: url("PH_GamePlayTrailerThumb_Screenshot_3.webp");
+	background-size: cover;
+}
